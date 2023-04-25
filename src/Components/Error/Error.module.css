@@ -1,0 +1,15 @@
+.error-wrapper {
+  text-align: center;
+  margin-top: 2.5em;
+}
+
+.error-wrapper h1 {
+  margin-bottom: .5em;
+  font-size: 2rem;
+}
+
+.error-wrapper p {
+  font-size: 1rem;
+  margin-top: 1em;
+  line-height: 25px;
+}

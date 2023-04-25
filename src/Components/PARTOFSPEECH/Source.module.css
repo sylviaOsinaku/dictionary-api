@@ -1,0 +1,20 @@
+.source-wrapper {
+  margin-bottom: 2em;
+  border-top: 1px solid #757575;
+  padding-top: 1em;
+}
+
+.source {
+  margin-right: 1em;
+  color: #757575;
+  font-size: 1.2rem;
+}
+
+.link {
+  color: black;
+  word-break: break-all;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  gap: .5em;
+}

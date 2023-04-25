@@ -1,0 +1,25 @@
+.synonyms {
+  font-size: 1.2em;
+  color: #757575;
+}
+
+.synonym-wrapper {
+  margin-left: 1.2em;
+  display: block;
+  word-break: break-all;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.synonym-wrapper span {
+  margin-right: .2em;
+  color: #a445ed;
+  font-weight: 700;
+  font-size: 1.2rem;
+
+}
+
+.sym-container {
+  margin-bottom: 2em;
+}

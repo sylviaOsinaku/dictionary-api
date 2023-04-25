@@ -1,0 +1,53 @@
+.form-wrapper,
+.invalid {
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+.form-wrapper input,
+.invalid input {
+  outline: none;
+  border: none;
+  width: 100%;
+  background-color: rgba(211, 211, 211, 0.226);
+  padding: 1em 1.5em;
+  border-radius: 5px;
+  font-size: 1.35rem;
+}
+
+.search-icon {
+  position: absolute;
+  right: 15px;
+  top: 23px;
+}
+
+.form-wrapper input:focus {
+  background-color: rgba(76, 0, 130, 0.233);
+  transition: all 1s;
+}
+
+.form-wrapper input::placeholder,
+.invalid input::placeholder {
+  font-size: 1.1rem;
+  color: gray;
+  font-weight: 500;
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+
+}
+
+.invalid input:focus {
+  border-color: #ff8800;
+  outline: none;
+  background-color: #fbe8d2;
+}
+
+.error-text {
+  color: #b40e0e;
+  font-weight: 600;
+  margin-top: 1em;
+}

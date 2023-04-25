@@ -1,0 +1,40 @@
+.part-of-speech {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.horizontal-line {
+  width: 80%;
+  height: 1px;
+  background-color: grey;
+}
+
+.part-of-speech-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.meaning {
+  color: #757575;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+ul {
+  margin-bottom: 2em;
+}
+
+.example {
+  color: #757575;
+  display: block;
+  margin-top: .5em;
+}
+
+ul li {
+  margin-bottom: 1em;
+  font-size: 1.2rem;
+}
